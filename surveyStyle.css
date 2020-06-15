@@ -1,0 +1,52 @@
+body {
+  background-color: #E6E6F8;
+  font-weight: 400;
+  margin-right: 100px;
+  margin-left: 100px;
+  --alice-blue: #F0F8FF;
+}
+h1 {
+  font-weight: : 400px;
+  line-height: 1.2;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.form-group {
+  text-align: center;
+  margin: 0 auto 1.25rem auto;
+  margin-top: 5px;
+}
+
+#survey-form {
+  background-color: #6B8E23;
+  border-radius: 0.25rem;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+}
+
+.input-textarea {
+  min-height: 80px;
+  width: 30%;
+  resize: vertical;
+}
+
+.submit-button {
+  background-color: #90EE90;
+  width: 30%;
+  border-radius: 20px;
+  border-style: outset;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  cursor: pointer;
+}

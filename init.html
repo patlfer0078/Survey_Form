@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="surveyStyle.css">
+    <title>&#127829; Pizza Survey</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1 id="title" class="text-center">Pizza Tastes Survey</h1>
+        <p id="description" class="description text-center">Let us know your pizza preferences</p>
+      </header>
+
+      <form id="survey-form">
+        <div class="form-group">
+          <label for="name" id="name-label">Name</label>
+          <input type="text" name="name" id="name" class="form-control" placeholder="Enter your name" required/>
+        </div>
+
+        <div class="form-group">
+          <label for="email" id="email-label">Email</label>
+          <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required/>
+        </div>
+        <div class="form-group">
+          <label for="number" id="number-label">Age (optional)</label>
+          <input type="number" name="age" id="number" min="4" max="99" class="form-control" placeholder="Age"/>
+        </div>
+
+        <div class="form-group">
+          <p>What crust type is your favorite?</p>
+          <select id="dropdown" name="crust" class="form-control" required>
+            <option disabled selected value>Select favorite crust type</option>
+            <option value="thin">Thin crust</option>
+            <option value="tossed">Hand tossed crust</option>
+            <option value="pan">Pan crust</option>
+            <option value="stuffed">Stuffed crust</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <p>Which pizza topping style do you prefer?</p>
+          <label>
+            <input type="radio" name="toppings" value="pepperoni" class="input-radio">Pepperoni</label>
+          <label>
+            <input type="radio" name="toppings" value="meatlover" class="input-radio">Meatlover
+          </label>
+          <label>
+            <input type="radio" name="toppings" value="supreme" class="input-radio">Supreme
+          </label>
+          <label>
+            <input type="radio" name="toppings" value="cheese" class="input-radio">Cheese
+          </label>
+          <label>
+            <input type="radio" name="toppings" value="veggies" class="input-radio">Veggie
+          </label>
+        </div>
+
+        <div class="form-group">
+          <p>Which of these do you add on to your pizza?
+          <span>(Check all that apply)</span></p>
+          <label>
+            <input type="checkbox" name="add-ons" value="flakes" class="input-checkbox">Red pepper flakes
+          </label>
+          <label>
+            <input type="checkbox" name="add-ons" value="parmesan" class="input-checkbox">Parmesan cheese
+          </label>
+          <label>
+            <input type="checkbox" name="add-ons" value="hot-sauce" class="input-checkbox">Hot sauce
+          </label>
+          <label>
+            <input type="checkbox" name="add-ons" value="other" class="input-checkbox"> Other
+          </label>
+          <label>
+            <input type="checkbox" name="add-ons" value="none" class="input-checkbox">None
+          </label>
+        </div>
+
+        <div class="form-group">
+          <p>Please leave any comments or suggestions</p>
+          <textarea name="comment" id="comments" class="input-textarea" placeholder="Enter your comments here..."></textarea>
+        </div>
+
+        <div class="form-group">
+          <button type="submit" id="submit" class="submit-button"><strong>Submit</strong></button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
