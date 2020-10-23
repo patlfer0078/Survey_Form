@@ -1,4 +1,4 @@
 # Survey_Form
-Survey form for FreeCodeCamp. First Survey ever created. 
+First attempt at a building a simple survey form. 
 
 Feel Free to do whatever you want with it. keep it appropriate 
